@@ -15,8 +15,7 @@ loop do
     if set.include? accumulator
       puts accumulator
       exit
-    else
-      set.add(accumulator)
     end
+    set.add(accumulator)
   end
 end
